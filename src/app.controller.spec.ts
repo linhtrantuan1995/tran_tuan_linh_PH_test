@@ -29,8 +29,8 @@ describe('AppController', () => {
       expect(await appService.processFile(stream)).toBe(result);
     });
 
-    it('/upload (POST)', async () => {
-      const filePath = 'files/test_picket.csv'; // Path to the file you want to upload
+    it('/excel (POST)', async () => {
+      const filePath = 'files/test_picket.csv'; // Path to the file
 
       const response = await request(endToEndApp.getHttpServer())
         .post('/excel')

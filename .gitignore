@@ -1,0 +1,12 @@
+/dist
+/node_modules
+.DS_Store
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+
+# Tests
+/coverage
+/.nyc_output
